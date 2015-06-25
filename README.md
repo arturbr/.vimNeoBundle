@@ -12,8 +12,10 @@ blabla
 
 ### 1. Install NeoBundle
 
+```
 curl https://raw.githubusercontent.com/Shougo/neobundle.vim/master/bin/install.sh > install.sh
 sh ./install.sh
+```
 
 Please add the following settings for NeoBundle to the top of your .vimrc file:
 
