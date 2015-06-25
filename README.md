@@ -11,6 +11,7 @@ Please add the following settings for NeoBundle to the top of your .vimrc file:
 
 
 "NeoBundle Scripts-----------------------------
+```
 if has('vim_starting')
   if &compatible
     set nocompatible               " Be iMproved
@@ -46,4 +47,5 @@ filetype plugin indent on
 " If there are uninstalled bundles found on startup,
 " this will conveniently prompt you to install them.
 NeoBundleCheck
+```
 "End NeoBundle Scripts-------------------------
