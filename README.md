@@ -1,6 +1,6 @@
 # .vimNeoBundle
 
-My vim configuration using NeoBundle (https://github.com/Shougo/neobundle.vim)
+My vim configuration using [NeoBundle] (https://github.com/Shougo/neobundle.vim)
 
 ## Plugins Available
 
