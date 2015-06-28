@@ -22,6 +22,7 @@ x 01. NERD_tree - folders disposition on the left (scrooloose/nerdtree)
 02. SearchComplete - tab completion inside a search (SearchComplete)
 03. bufexplorer - buffers manager/explorer, no new functions (corntrace/bufexplorer)
 04. cscope_maps - cscope handler, mirror of http://cscope.sourceforge.net/cscope_maps.vim (simplyzhao/cscope_maps.vim)
+
 x 05. matchit - '%' match configuration, mirror of http://www.vim.org/scripts/script.php?script_id=39 (tmhedberg/matchit)
 06. ultisnips - snippets, looking even better than snipmate (SirVer/ultisnips)
 07. snipmate - snippets (garbas/vim-snipmate)
