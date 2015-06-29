@@ -33,3 +33,60 @@ filetype plugin indent on
 " If there are uninstalled bundles found on startup,
 " this will conveniently prompt you to install them.
 NeoBundleCheck
+
+
+
+" add properly later
+
+" My Bundles here:
+"
+" original repos on github
+" Snippet - ctrlp or snipmate
+
+" Snippets - ctrlp or snipmate
+Bundle 'kien/ctrlp.vim'
+
+let s:python_ver = 0
+silent! python import sys, vim;
+\ vim.command("let s:python_ver="+"".join(map(str,sys.version_info[0:3])))
+
+" Python plugin bundles
+if (has('python') || has('python3')) && s:python_ver >= 260
+  Bundle 'SirVer/ultisnips'
+else
+  Bundle 'garbas/vim-snipmate'
+endif
+
+Bundle 'croaker/mustang-vim'
+Bundle 'altercation/vim-colors-solarized'
+
+Bundle 'scrooloose/nerdtree'
+Bundle 'corntrace/bufexplorer'
+Bundle 'simplyzhao/cscope_maps.vim'
+Bundle 'tmhedberg/matchit'
+Bundle 'ervandew/supertab'
+Bundle 'tomtom/tcomment_vim'
+Bundle 'scrooloose/syntastic'
+Bundle 'tpope/vim-fugitive'
+Bundle 'majutsushi/tagbar'
+Bundle 'Raimondi/delimitMate'
+Bundle 'tpope/vim-surround'
+
+Bundle 'joonty/vdebug.git'
+Bundle 'bling/vim-airline'
+
+
+" Github repos of the user 'vim-scripts'
+" => can omit the username part
+Bundle 'L9'
+Bundle 'SearchComplete'
+Bundle 'TaskList.vim'
+
+
+" non github repos
+Bundle 'git://git.wincent.com/command-t.git'
+" ...
+
+filetype plugin indent on     " required!
+
+
