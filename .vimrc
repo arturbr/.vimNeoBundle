@@ -21,6 +21,34 @@ NeoBundle 'tpope/vim-fugitive'
 NeoBundle 'ctrlpvim/ctrlp.vim'
 NeoBundle 'flazz/vim-colorschemes'
 
+
+" from vundle:
+NeoBundle 'kien/ctrlp.vim'
+
+NeoBundle 'SirVer/ultisnips'
+
+NeoBundle 'croaker/mustang-vim'
+NeoBundle 'altercation/vim-colors-solarized'
+
+NeoBundle 'scrooloose/nerdtree'
+NeoBundle 'corntrace/bufexplorer'
+NeoBundle 'simplyzhao/cscope_maps.vim'
+NeoBundle 'tmhedberg/matchit'
+NeoBundle 'ervandew/supertab'
+NeoBundle 'tomtom/tcomment_vim'
+NeoBundle 'scrooloose/syntastic'
+NeoBundle 'tpope/vim-fugitive'
+NeoBundle 'majutsushi/tagbar'
+NeoBundle 'Raimondi/delimitMate'
+NeoBundle 'tpope/vim-surround'
+
+NeoBundle 'joonty/vdebug.git'
+NeoBundle 'bling/vim-airline'
+
+
+
+
+
 " You can specify revision/branch/tag.
 NeoBundle 'Shougo/vimshell', { 'rev' : '3787e5' }
 
